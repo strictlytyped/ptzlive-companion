@@ -1,0 +1,34 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "ptz-live",
+	"name": "PTZ Live",
+	"shortname": "PTZ Live",
+	"description": "Control PTZ Live from Bitfocus Companion.",
+	"version": "0.1.0-beta.1",
+	"license": "MIT",
+	"repository": "git+https://github.com/strictly/companion-module-strictly-ptz-live.git",
+	"bugs": "https://github.com/strictly/companion-module-strictly-ptz-live/issues",
+	"maintainers": [
+		{
+			"name": "Strictly Typed LLC",
+			"email": "feedback@strictlytyped.dev"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "PTZ Live",
+	"products": [
+		"PTZ Live"
+	],
+	"keywords": [
+		"ptz",
+		"camera",
+		"live"
+	]
+}
